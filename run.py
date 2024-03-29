@@ -16,16 +16,16 @@ Autostart = True #@param {type: "boolean"}
 class CRDSetup:
     def __init__(self, user):
         os.system("apt update")
-        self.installCRD()
-        self.installDesktopEnvironment()
-        self.changewall()
-        self.installGoogleChrome()
-        self.installTelegram()
-        self.installneofetch()
-        self.installMetaspolit()
-        self.installNmap()
-        self.installQbit()
-        self.finish(user)
+       self.installCRD()
+       self.installDesktopEnvironment()
+       self.changewall()
+       self.installGoogleChrome()
+       self.installTelegram()
+       self.installneofetch()
+       self.installMetaspolit()
+       self.installNmap()
+       self.installQbit()
+       self.finish(user)
 
     @staticmethod
     def installCRD():
