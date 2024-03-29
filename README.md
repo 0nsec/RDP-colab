@@ -11,6 +11,15 @@
 * **Don't mine Instant Ban**
 
 ---
+
+### Copy and Paste the code in colab
+
+```sh
+!curl -s -L -o run.py https://raw.githubusercontent.com/0nsec/RDP-colab/main/run.py
+```
+```sh
+!python run.py
+```
 ### Ubuntu 22.04.3 LTS
 
 VM features:
@@ -23,7 +32,8 @@ VM features:
   - Automatically Qbittorrent Installed
   - Removed Stupid/Unrated Softwares
   - Added New Wallpaper
-  - Ect ...
+  - Install Nmap , Metasploit, tor
+  - Neofetch
 
 ## Deploy and Run
 
@@ -49,10 +59,10 @@ VM features:
 
 * Double Click and Give **PIN : _123456_**
 
-## Script
-
 * Now You're In , Enjoy.
 
 </details>
 
-    
+
+  
+*************************************************************************************    
