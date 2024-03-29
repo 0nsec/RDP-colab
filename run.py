@@ -55,13 +55,18 @@ class CRDSetup:
 
     @staticmethod
     def installTelegram():
-        subprocess.run(["apt", "install",  "neofetch"])
+        subprocess.run(["apt", "install", "--assume-yes", "neofetch"])
         print("Neofetch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        
+     @staticmethod
+    def installTelegram():
+        subprocess.run(["curl", "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb", ">", "msfinstall", "&&", "chmod 755", "msfinstall", "&&", "./msfinstall"])
+        print("Metersploit !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         
     @staticmethod
     def installTelegram():
-        subprocess.run(["apt", "install", "nmap" , "metasploit-framework" , "tor"])
-        print("Telegram NMAP and METASPLOIT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        subprocess.run(["apt", "install", "nmap" ])
+        print("Telegram NMAP  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     @staticmethod
     def changewall():
