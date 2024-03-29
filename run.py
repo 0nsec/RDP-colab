@@ -21,6 +21,9 @@ class CRDSetup:
         self.changewall()
         self.installGoogleChrome()
         self.installTelegram()
+        self.installneofetch()
+        self.installMetaspolit()
+        self.installNmap()
         self.installQbit()
         self.finish(user)
 
@@ -54,17 +57,17 @@ class CRDSetup:
         print("Telegram Installed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!") 
 
     @staticmethod
-    def installTelegram():
+    def installneofetch():
         subprocess.run(["apt", "install", "--assume-yes", "neofetch"])
         print("Neofetch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         
      @staticmethod
-    def installTelegram():
+    def installMetaspolit():
         subprocess.run(["curl", "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb", ">", "msfinstall", "&&", "chmod 755", "msfinstall", "&&", "./msfinstall"])
         print("Metersploit !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         
     @staticmethod
-    def installTelegram():
+    def installNmap():
         subprocess.run(["apt", "install", "nmap" ])
         print("Telegram NMAP  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
