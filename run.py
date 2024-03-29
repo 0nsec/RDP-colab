@@ -22,7 +22,6 @@ class CRDSetup:
        self.installGoogleChrome()
        self.installTelegram()
        self.installneofetch()
-       self.installMetaspolit()
        self.installNmap()
        self.installtor()
        self.installQbit()
