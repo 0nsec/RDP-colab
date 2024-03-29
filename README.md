@@ -1,14 +1,29 @@
-# GPU RDP METHOD
+# RDP FOR HACKING WITH GRAPHIC CARD
 
 ## Debian (Ubuntu) Colab RDP With Google Chrome Remote Desktop (RDP)
 
 ![.](sec.png)
 
-# Read This Before Rushing To Download Colab Workflow 💀
+### Ubuntu 22.04.3 LTS
+
+VM features:
+* INTEL Xeon(R) CPU @ 2.20Ghz * 2
+* 12.7 GB RAM
+* llvmpipe (LLVM 15.0.7, 256bits) 12.7GB GPU
+* 100GB Disk
+* I MOD and Some Cool Features :
+  - Automatically Telegram Installed
+  - Automatically Qbittorrent Installed
+  - Removed Stupid/Unrated Softwares
+  - Added New Wallpaper
+  - Install Nmap , Metasploit, tor
+  - Neofetch
+
+## READ BEFORE USING THIS RDP 💀
 
 * i'm **not responsible** for **suspended Google accounts**
 * **Don't try these in your personal Gmail account** 
-* **Don't mine Instant Ban**
+* **Don't mine will be ban Instantly**
 
 ---
 
@@ -20,30 +35,13 @@
 ```sh
 !python run.py
 ```
-### Ubuntu 22.04.3 LTS
 
-VM features:
-* INTEL Xeon(R) CPU @ 2.20Ghz * 2
-* 12.7 GB RAM
-* llvmpipe (LLVM 15.0.7, 256bits) 12.7GB GPU
-* 100GB Disk
-* We Have Some Cool Features That Other workflows Dosen't Have
-  - Automatically Telegram Installed
-  - Automatically Qbittorrent Installed
-  - Removed Stupid/Unrated Softwares
-  - Added New Wallpaper
-  - Install Nmap , Metasploit, tor
-  - Neofetch
-
-## Deploy and Run
 
 <details>
-    <summary>Ubuntu RDP Install and Run</summary>
+    <summary>Installation and Run</summary>
 <br>
     
-* **Get Colab Drive file** from **Release**
-
-* Double click the file and click **Play Button**
+* Copy and paste code in **Colab**
     
 * Go To [**Google Chrome Remote Desktop (CRD)**](https://remotedesktop.google.com/access) Site 
 
@@ -60,6 +58,8 @@ VM features:
 * Double Click and Give **PIN : _123456_**
 
 * Now You're In , Enjoy.
+
+  </details>
 
 </details>
 
