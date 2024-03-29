@@ -1,6 +1,6 @@
 # GPU RDP METHOD
 
-## Windows 10 Colab RDP With Google Chrome Remote Desktop (RDP)
+## Debian (Ubuntu) Colab RDP With Google Chrome Remote Desktop (RDP)
 
 ![.](spec.png)
 
