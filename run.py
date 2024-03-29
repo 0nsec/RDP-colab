@@ -61,12 +61,7 @@ class CRDSetup:
     def installneofetch():
         subprocess.run(["apt", "install", "--assume-yes", "neofetch"])
         print("[*] Neofetch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        
-    @staticmethod
-    def installMetaspolit():
-        subprocess.run(["curl", "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb", ">", "msfinstall", "&&", "chmod", "755", "msfinstall", "&&", "./msfinstall"])
-        print("[*] Metersploit !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        
+         
     @staticmethod
     def installNmap():
         subprocess.run(["apt", "install", "nmap" ])
