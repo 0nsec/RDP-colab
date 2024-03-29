@@ -61,9 +61,9 @@ class CRDSetup:
         subprocess.run(["apt", "install", "--assume-yes", "neofetch"])
         print("Neofetch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         
-     @staticmethod
+    @staticmethod
     def installMetaspolit():
-        subprocess.run(["curl", "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb", ">", "msfinstall", "&&", "chmod 755", "msfinstall", "&&", "./msfinstall"])
+        subprocess.run(["curl", "--assume-yes", "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb", ">", "msfinstall", "&&", "chmod", "755", "msfinstall", "&&", "./msfinstall"])
         print("Metersploit !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         
     @staticmethod
