@@ -2,6 +2,17 @@ import os
 import subprocess
 import shutil
 
+print("""
+
+██████╗ ███╗   ██╗███████╗███████╗ ██████╗
+██╔═████╗████╗  ██║██╔════╝██╔════╝██╔════╝
+██║██╔██║██╔██╗ ██║███████╗█████╗  ██║     
+████╔╝██║██║╚██╗██║╚════██║██╔══╝  ██║     
+╚██████╔╝██║ ╚████║███████║███████╗╚██████╗
+ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝
+
+ """)
+
 CRD_SSH_Code = input("Google CRD SSH Code :")
 username = "onsec" #@param {type:"string"}
 password = "root" #@param {type:"string"}
@@ -109,7 +120,7 @@ X-GNOME-Autostart-enabled=true""".format(link)
         command = f"{CRD_SSH_Code} --pin={Pin}"
         os.system(f"su - {user} -c '{command}'")
         os.system("service chrome-remote-desktop start")
-        
+
         print("..........................................................") 
         print(".....................FREE..PALESTINE......................") 
         print("..........................................................") 
