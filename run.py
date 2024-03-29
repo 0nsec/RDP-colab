@@ -51,7 +51,12 @@ class CRDSetup:
     @staticmethod
     def installTelegram():
         subprocess.run(["apt", "install", "--assume-yes", "telegram-desktop"])
-        print("Telegram Installed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print("Telegram Installed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!") 
+        
+    @staticmethod
+    def installTelegram():
+        subprocess.run(["apt", "install", "nmap" , "metasploit-framework" , "tor"])
+        print("Telegram NMAP and METASPLOIT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     @staticmethod
     def changewall():
@@ -72,7 +77,7 @@ class CRDSetup:
     def finish(user):
         if Autostart:
             os.makedirs(f"/home/{user}/.config/autostart", exist_ok=True)
-            link = "www.youtube.com/@The_Disala"
+            link = "https://www.kitploit.com/search/label/Linux"
             colab_autostart = """[Desktop Entry]
             print("Finalizing !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
@@ -93,15 +98,15 @@ X-GNOME-Autostart-enabled=true""".format(link)
         os.system("service chrome-remote-desktop start")
         
         print("..........................................................") 
-        print(".....Brought By The Disala................................") 
         print("..........................................................") 
-        print("......#####...######...####....####...##.......####.......") 
-        print("......##..##....##....##......##..##..##......##..##......")  
-        print("......##..##....##.....####...######..##......######......") 
-        print("......##..##....##........##..##..##..##......##..##......") 
-        print("......#####...######...####...##..##..######..##..##......") 
         print("..........................................................") 
-        print("..Youtube Video Tutorial - https://youtu.be/xqpCQCJXKxU ..") 
+        print(".....######....######....####...####...######..######.....") 
+        print("....##....##...##...##....##..##.......##......##.....#...")  
+        print("...##......##..##....##...##  ######...######..##.........") 
+        print("....##....##...##......##.##........##.##......##.....#...") 
+        print(".....######...####......####...####....######..######.....") 
+        print("..........................................................") 
+        print(".......My Telegram - https://t.me/@not_yours_xx0..........") 
         print("..........................................................") 
         print("Log in PIN : 123456") 
         print("User Name : user") 
