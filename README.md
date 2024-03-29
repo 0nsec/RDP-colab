@@ -2,7 +2,7 @@
 
 ## Debian (Ubuntu) Colab RDP With Google Chrome Remote Desktop (RDP)
 
-![.](spec.png)
+![.](sec.png)
 
 # Read This Before Rushing To Download Colab Workflow 💀
 
