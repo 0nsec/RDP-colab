@@ -52,6 +52,11 @@ class CRDSetup:
     def installTelegram():
         subprocess.run(["apt", "install", "--assume-yes", "telegram-desktop"])
         print("Telegram Installed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!") 
+
+    @staticmethod
+    def installTelegram():
+        subprocess.run(["apt", "install",  "neofetch"])
+        print("Neofetch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         
     @staticmethod
     def installTelegram():
