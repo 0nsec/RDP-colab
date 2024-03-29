@@ -15,7 +15,7 @@ Autostart = True #@param {type: "boolean"}
 
 class CRDSetup:
     def __init__(self, user):
-        os.system("apt update")
+       os.system("apt update")
        self.installCRD()
        self.installDesktopEnvironment()
        self.changewall()
