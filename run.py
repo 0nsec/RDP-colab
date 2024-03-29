@@ -2,17 +2,6 @@ import os
 import subprocess
 import shutil
 
-print("""
-
-██████╗ ███╗   ██╗███████╗███████╗ ██████╗
-██╔═████╗████╗  ██║██╔════╝██╔════╝██╔════╝
-██║██╔██║██╔██╗ ██║███████╗█████╗  ██║     
-████╔╝██║██║╚██╗██║╚════██║██╔══╝  ██║     
-╚██████╔╝██║ ╚████║███████║███████╗╚██████╗
- ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝
-
- """)
-
 CRD_SSH_Code = input("Google CRD SSH Code :")
 username = "onsec" #@param {type:"string"}
 password = "root" #@param {type:"string"}
