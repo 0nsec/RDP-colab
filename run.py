@@ -3,7 +3,7 @@ import subprocess
 import shutil
 
 CRD_SSH_Code = input("Google CRD SSH Code :")
-username = "user" #@param {type:"string"}
+username = "onsec" #@param {type:"string"}
 password = "root" #@param {type:"string"}
 os.system(f"useradd -m {username}")
 os.system(f"adduser {username} sudo")
@@ -109,7 +109,7 @@ X-GNOME-Autostart-enabled=true""".format(link)
         print(".......My Telegram - https://t.me/@not_yours_xx0..........") 
         print("..........................................................") 
         print("Log in PIN : 123456") 
-        print("User Name : user") 
+        print("User Name : onsec") 
         print("User Pass : root") 
         while True:
             pass
