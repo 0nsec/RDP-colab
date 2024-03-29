@@ -70,6 +70,11 @@ class CRDSetup:
     def installNmap():
         subprocess.run(["apt", "install", "nmap" ])
         print("Telegram NMAP  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        
+    @staticmethod
+    def installtor():
+        subprocess.run(["apt", "install", "tor", "torbrowser-launcher" ])
+        print("Telegram NMAP  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
     @staticmethod
     def changewall():
